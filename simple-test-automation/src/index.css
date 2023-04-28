@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  background-color: black;
+  height: 150vh;
+}
+.container{
+  width: 30%;
+  margin: auto; 
+}
+h1{
+  padding: 30px;
+  text-align: center;
+  color: aliceblue;
+  font-weight: 800;
+  
+}
+label{
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  font-size: 20px;
+}
+span{
+  padding: 20px 0px;
+}
+input{
+  width: 100%;
+  margin: 30px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.295);
+}
+textarea{
+  width: 100%;
+  margin: 30px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.295);
+}
+.submit button{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 10px;
+  font-weight: 800;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+.whole{
+  border: 1px dotted white;
+  margin-top: 50px;
+  padding: 20px;
+}
+.display-1{
+  display: flex;
+  justify-content: space-between;
+}
+.display h4{
+  color: bisque;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.display p{
+  color: azure;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 25px 0px;
+}
+.btn{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.button-1 button{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+  font-weight: 800;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+  margin-top: 20px;
+}
